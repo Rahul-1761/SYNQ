@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNQ</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="public/images/Synq favicon.png" type="image/x-icon">
+
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--Google font for Material And Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Css Link-->
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#">
+                <img src="public/images/Synq Logo.png" alt="Logo" class="d-inline-block logo">
+                SYNQ
+              </a>
+    
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+    
+                <div class="navbar-collapse collapse justify-content-end">
+                  <ul class="navbar-nav">
+                      <li class="nav-item sign-in display-center ">
+                          <a href="#" class="nav-link">Sign in</a>
+                      </li>
+                      <li class="nav-item">
+                          <button type="button" class="btn btn-outline-primary btn-lg font-weight-bold join-meeting">Join the Meeting</button>
+                      </li>
+                      <li class="nav-item">
+                          <button type="button" class="btn btn-lg btn-primary text-light font-weight-bold new-meeting">Start a Meeting</button>
+                      </li>
+                  </ul>
+                </div>
+        </div>
+    </nav>
+
+    <main class="main-page">
+        <div class="h-100 d-flex main-page-div">
+            <div class="container main_page_right">
+                <h1 style="font-size: 2.9rem;">
+                    SYNQ: Uniting Teams, <br>Elevating Virtual Meetings.
+                </h1>
+                <p class="paragraph_right" style="font-size: 20px;">
+                    Connect, collaborate, and get more done together <br>with SYNQ's reliable video meeting solution.
+                </p>
+                <ul class="meeting_right">
+                    <li>
+                        <button type="button" class="btn btn-lg btn-primary text-light font-weight-bold display-center new-meeting"><span class="material-icons" style="margin-right: 6px;">video_call</span>New Meeting</button>
+                    </li>
+                    <li style="padding-left: 80px;">
+                        <button class="btn btn-lg text-dark font-weight-bold display-center" style="background-color: white;"><span class="material-icons" style="margin-right: 6px;">keyboard</span><input type="text" placeholder="Enter a code" style="border: none;" class="enter-code"></button>
+                    </li>
+                    <li class="text-light font-weight-bold cursor-pointer display-center join-action" style="padding-left: 20px;">Join</li>
+                </ul>
+            </div>
+            
+            <div class="container main_page_left">
+                <div class="main_graphic_div">
+                    <img src="public/images/Main graphic.jpg" class="main_graphic">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer-div">
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="public/js/app.js"></script>
+</body>
+</html>

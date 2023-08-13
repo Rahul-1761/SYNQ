@@ -1,0 +1,17 @@
+{
+  "name": "synq_videochat_application",
+  "version": "1.0.0",
+  "description": "Video Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mustache": "^4.2.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.7.0"
+  }
+}

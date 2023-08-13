@@ -1,0 +1,180 @@
+body {
+    font-family: robot, lato !important;
+    font-size: large;
+    /* overflow: hidden; */
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.logo{
+    height: 85px;
+    padding-bottom: 13px !important;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    padding: 5px 10px;
+    font-family: 'lato';
+}
+
+.nav-item a{
+    color: grey !important;
+    font-size: 20px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.nav-item{
+    padding: 20px 10px;
+}
+
+textarea:focus, input:focus{
+    outline: none !important;
+}
+
+.main-page{
+    position: relative;
+    padding-top: 80px;
+    height: 97vh;
+}
+
+.main-page-div{
+    color: white;
+}
+
+.main_page_right{
+    padding: 6% 3%;
+    background-color: #00031f;
+    flex: 70%;
+}
+
+.paragraph_right{
+    padding-top: 3%;
+}
+
+.join-action:hover{
+    color: #81b3f3 !important;
+}
+
+.main_page_left{
+    background-color: #b5d0f8;
+    flex: 30%
+}
+
+.main_graphic{
+    position: absolute;
+    border-radius: 10px;
+    top: 16%;
+    right: 13%;
+    height: 80%;
+    width: 33%;
+}
+
+.meeting_right{
+    display: flex;
+    padding-top: 7%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.footer-div{
+    height: 26px;
+    background-color: #71a0ec;
+}
+    
+/*...............index page................*/
+.home-wrap{
+    background-color: rgb(31,30,30);
+}
+
+.s-top{
+    height: 90vh;
+    position: relative;
+}
+
+.video-wrap{
+    height: 600px;
+}
+
+.video-wrap>*{
+    flex: 1 1 250px;
+    border: 1px solid white;
+}
+
+.bottom-right-participant-wrap{
+    position: relative;
+}
+
+.bottom-right-participant-count{
+    position: absolute;
+    top: -2px;
+    right: 19px;
+    font-size: 15px;
+}
+
+.s-bottom{
+    /* margin: 0 -10px !important; */
+    padding: 0 20px;
+    z-index: 2;
+}
+
+.bottom-left{
+    position: relative;
+    padding: 5px;
+}
+
+.action-icon-style{
+    font-size: 8px !important;
+    height: 40px;
+    width: 40px;
+    border: 1px;
+    background-color: #3a3e41;
+    border-radius: 50%;
+}
+
+.action-icon-style:hover{
+    background-color: #4B4F53;
+}
+
+.end-call-wrap{
+    width: 60px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px;
+    background-color: #FF0000;
+}
+
+.end-call-wrap:hover{
+    background-color: #FF4D4D;
+}
+
+.bottom-right-hover-style{
+    font-size: 8px !important;
+    height: 40px;
+    width: 40px;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.bottom-right-hover-style:hover{
+   background-color: #3A3E41;
+}
+
